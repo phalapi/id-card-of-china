@@ -62,8 +62,12 @@ class Region implements RegionInterface
     public function province(): string
     {
         $provinceCode = substr($this->code, 0, 2).'0000';
-
-        return static::$regions[$provinceCode];
+    
+        if(isset(static::$regions[$provinceCode])){
+            return static::$regions[$provinceCode];
+        }
+        return '';
+        
     }
 
     /**
