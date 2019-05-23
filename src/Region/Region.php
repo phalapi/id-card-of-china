@@ -92,7 +92,10 @@ class Region implements RegionInterface
      */
     public function county(): string
     {
-        return static::$regions[$this->code];
+        if(isset(static::$regions[$this->code])){
+            return static::$regions[$this->code];
+        }
+        return '';
     }
 
     /**
