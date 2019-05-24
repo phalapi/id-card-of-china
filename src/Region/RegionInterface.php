@@ -10,7 +10,7 @@ interface RegionInterface
      * @return int
      * @author Seven Du <shiweidu@outlook.com>
      */
-    public function code(): int;
+    public function code();
 
     /**
      * Get Province Of The Region.
@@ -18,7 +18,7 @@ interface RegionInterface
      * @return string
      * @author Seven Du <shiweidu@outlook.com>
      */
-    public function province(): string;
+    public function province();
 
     /**
      * Get City Of The Region.
@@ -26,7 +26,7 @@ interface RegionInterface
      * @return string
      * @author Seven Du <shiweidu@outlook.com>
      */
-    public function city(): string;
+    public function city();
 
     /**
      * Get County Of The Region.
@@ -34,7 +34,7 @@ interface RegionInterface
      * @return string
      * @author Seven Du <shiweidu@outlook.com>
      */
-    public function county(): string;
+    public function county();
 
     /**
      * Get The Region Tree.
@@ -42,7 +42,7 @@ interface RegionInterface
      * @return array
      * @author Seven Du <shiweidu@outlook.com>
      */
-    public function tree(): array;
+    public function tree();
 
     /**
      * Get The Region Tree String.
@@ -51,5 +51,5 @@ interface RegionInterface
      * @return string
      * @author Seven Du <shiweidu@outlook.com>
      */
-    public function treeString(string $glue = ''): string;
+    public function treeString(string $glue = '');
 }
