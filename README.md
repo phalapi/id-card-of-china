@@ -8,6 +8,9 @@
 
 `id-card-of-china` 是一个基于「公民身份号码」规则获取公民身份号码中包含的基础信息组件。
 
+## 更新说明
+去除PHP严格模式，以免报错。
+
 ## 安装
 
 - 你的 PHP 版本应该 `>= 7.0`
@@ -15,7 +18,7 @@
 我们使用 Composer 安装：
 
 ```bash
-composer require medz/id-card-of-china
+composer require phalapi/id-card-of-china
 ```
 
 ## 使用
