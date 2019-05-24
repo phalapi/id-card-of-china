@@ -1,9 +1,7 @@
 #!/usr/bin/env php
 <?php
 
-declare(strict_types=1);
-
-use Medz\IdentityCard\China\Identity;
+use PhalApi\IdentityCard\China\Identity;
 
 /**
  * Find file existe.

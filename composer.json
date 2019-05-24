@@ -1,7 +1,7 @@
 {
-    "name": "medz/id-card-of-china",
+    "name": "phalapi/id-card-of-china",
     "keywords": ["id", "card", "identity", "china"],
-    "description": "中华人民共和国身份证（The identity card of the people's Republic of China）",
+    "description": "中华人民共和国身份证（The identity card of the people's Republic of China）. Fork From medz/id-card-of-china",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -19,12 +19,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Medz\\IdentityCard\\China\\": "src/"
+            "PhalApi\\IdentityCard\\China\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Medz\\IdentityCard\\China\\Tests\\": "tests/"
+            "PhalApi\\IdentityCard\\China\\Tests\\": "tests/"
         }
     },
     "config": {

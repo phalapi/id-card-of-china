@@ -1,11 +1,9 @@
 <?php
 
-declare(strict_types=1);
+namespace PhalApi\IdentityCard\China;
 
-namespace Medz\IdentityCard\China;
-
-use Medz\IdentityCard\China\Region\Region;
-use Medz\IdentityCard\China\Region\RegionInterface;
+use PhalApi\IdentityCard\China\Region\Region;
+use PhalApi\IdentityCard\China\Region\RegionInterface;
 
 class Identity implements IdentityInterface
 {

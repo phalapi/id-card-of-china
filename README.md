@@ -23,7 +23,7 @@ composer require medz/id-card-of-china
 遵循 PHP-MD 原则，这个工具不提供静态调用，所以使用需要进行对象实例化：
 
 ```php
-use Medz\IdentityCard\China\Identity;
+use PhalApi\IdentityCard\China\Identity;
 
 $peopleIDNumber = '350301198906180060';
 $peopleIdentity = new Identity($peopleIDNumber);
@@ -31,12 +31,12 @@ $peopleIdentity = new Identity($peopleIDNumber);
 
 ## APIs
 
-> 基于 `Medz\IdentityCard\China\IdentityInterface` 实例
+> 基于 `PhalApi\IdentityCard\China\IdentityInterface` 实例
 
 - `legal`：检查公民身份号码是否合法
 - `birthday`：获取公民身份号码中包含的生日信息
 - `gender`：获取身份证包含的性别信息
-- `region`: 获取身份证包含的地区信息，返回 `Medz\IdentityCard\China\Region\RegionInterface` 实例
+- `region`: 获取身份证包含的地区信息，返回 `PhalApi\IdentityCard\China\Region\RegionInterface` 实例
 
 ### `region` 对象 APIs
 
@@ -50,7 +50,7 @@ $peopleIdentity = new Identity($peopleIDNumber);
 ### 演示
 
 ```php
-use Medz\IdentityCard\China\Identity;
+use PhalApi\IdentityCard\China\Identity;
 
 $peopleIDNumber = '350302198906180060';
 $peopleIdentity = new Identity($peopleIDNumber);

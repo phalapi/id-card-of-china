@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Medz\IdentityCard\China\Tests;
+namespace PhalApi\IdentityCard\China\Tests;
 
-use Medz\IdentityCard\China\Identity;
-use Medz\IdentityCard\China\IdentityInterface;
-use Medz\IdentityCard\China\Region\RegionInterface;
+use PhalApi\IdentityCard\China\Identity;
+use PhalApi\IdentityCard\China\IdentityInterface;
+use PhalApi\IdentityCard\China\Region\RegionInterface;
 
 class IdentityTest extends TestCase
 {

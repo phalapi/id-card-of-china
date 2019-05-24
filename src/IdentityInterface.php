@@ -1,10 +1,8 @@
 <?php
 
-declare(strict_types=1);
+namespace PhalApi\IdentityCard\China;
 
-namespace Medz\IdentityCard\China;
-
-use Medz\IdentityCard\China\Region\RegionInterface;
+use PhalApi\IdentityCard\China\Region\RegionInterface;
 
 interface IdentityInterface
 {
